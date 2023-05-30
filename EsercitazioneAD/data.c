@@ -1,4 +1,4 @@
-#inclnpde <stdio.h>
+#include <stdio.h>
 #include "data.h"
 #include "linked_list.h"
 #define COURSE_NAME_LENGHT 50
@@ -15,7 +15,7 @@ struct Course
 
 };
 
-typedef Course course;
+typedef struct Course course;
 typedef course * course_ptr;
 
-
+void inizialize_new_node(char * str_data, char * delim);

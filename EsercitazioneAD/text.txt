@@ -1,0 +1,8 @@
+1*informatica*pippo*12*200
+2*architettura*pippo2*12*432
+
+MENU:
+-leggi un file "corsi"; -> (prendere in input da tastiera il nome del file, cercarlo nel computer, se presente lo apre e genera una lista concatenata dei corsi
+    -> )
+-visualizza il file "corsi"; (manda in ouput a schermo la lista corrente dei corsi)
+-esci dal programma;
