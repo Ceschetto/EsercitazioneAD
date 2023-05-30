@@ -1,0 +1,157 @@
+<mxfile host="65bd71144e">
+    <diagram id="e7Jhm-mjQKPOkvGLRWCY" name="Pagina-1">
+        <mxGraphModel dx="1738" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="46" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="19" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="START PROGRAMMA" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="1600" y="40" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="MENU" style="swimlane;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1400" y="160" width="520" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Importa un file" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;" vertex="1" parent="44">
+                    <mxGeometry x="40" y="60" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Visualizza file corrente" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="44">
+                    <mxGeometry x="200" y="60" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Esci dal programma" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="44">
+                    <mxGeometry x="360" y="60" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Importa un file" style="swimlane;strokeColor=#C73500;fontColor=default;fillColor=#fa6800;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="360" width="200" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Prendere in imput il nome del file da cercare" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;" vertex="1" parent="47">
+                    <mxGeometry x="40" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Controllare se il file è presente" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;" vertex="1" parent="47">
+                    <mxGeometry x="40" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Leggere riga per riga e salvare in un vettore char" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;" vertex="1" parent="47">
+                    <mxGeometry x="40" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Creare una lista di nodi del dato astratto &quot;corsi&quot; utilizzando i dati del vettore char" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;" vertex="1" parent="47">
+                    <mxGeometry x="40" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Visuallizza file corrente" style="swimlane;strokeColor=#A50040;fontColor=#ffffff;fillColor=#d80073;" vertex="1" parent="1">
+                    <mxGeometry x="1560" y="360" width="520" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="MENU" style="swimlane;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="48">
+                    <mxGeometry x="40" y="40" width="190" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="Ordinamento crescente" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3A5431;fontColor=#ffffff;fillColor=#6d8764;" vertex="1" parent="130">
+                    <mxGeometry x="40" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="Ordinamento decrescente" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#314354;fontColor=#ffffff;fillColor=#647687;" vertex="1" parent="130">
+                    <mxGeometry x="40" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="Riordinare una lista in ordine crescente per il valore del numero di studenti, in caso di parità per il valore di numero di cfu" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#A50040;fontColor=#ffffff;fillColor=#d80073;" vertex="1" parent="48">
+                    <mxGeometry x="270" y="60" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" style="edgeStyle=none;rounded=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;fillColor=#6d8764;strokeColor=#3A5431;" edge="1" parent="48" source="135" target="138">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="Riordinare una lista in ordine decrescente per il valore del numero di studenti, in caso di parità per il valore di numero di cfu" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#A50040;fontColor=#ffffff;fillColor=#d80073;" vertex="1" parent="48">
+                    <mxGeometry x="270" y="160" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" style="edgeStyle=none;rounded=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;fillColor=#647687;strokeColor=#314354;" edge="1" parent="48" source="136" target="142">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="146" value="Salvare su file l'ultimo ordinamento scelto dall'utente" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#A50040;fontColor=#ffffff;fillColor=#d80073;" vertex="1" parent="48">
+                    <mxGeometry x="200" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" source="38" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" source="39" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="Imput e Output" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="1010" y="40" width="160" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="output di una lista di scelte" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="90">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="input da tastiera" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="90">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="output di una struct" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="90">
+                    <mxGeometry y="86" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="File" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="1010" y="180" width="160" height="146" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="leggere un file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="103">
+                    <mxGeometry y="26" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="scrivere un file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="103">
+                    <mxGeometry y="56" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="leggere un file con record" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="103">
+                    <mxGeometry y="86" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="scrivere su un file con record" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="103">
+                    <mxGeometry y="116" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Dato astratto &quot;Corsi&quot;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="975" y="350" width="220" height="146" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="creazione di un elenco &quot;corsi&quot;" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="111">
+                    <mxGeometry y="26" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="visualizzazione elenco &quot;corsi&quot;" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="111">
+                    <mxGeometry y="56" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="ordinamento elenco crescente" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="111">
+                    <mxGeometry y="86" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="ordinamento elenco decrescente" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="111">
+                    <mxGeometry y="116" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="Lista concatenata" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="520" width="230" height="204" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="aggiungere un nodo" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="115">
+                    <mxGeometry y="26" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="eliminazione di un nodo" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="115">
+                    <mxGeometry y="56" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="ordinamento di una lista secondo&#10; alcuni parametri in ordine crescente" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="115">
+                    <mxGeometry y="86" width="230" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="ordinamento di una lista secondo alcuni&#10;parametri in ordine decrescente" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="115">
+                    <mxGeometry y="130" width="230" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="eliminazione di una lista" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="115">
+                    <mxGeometry y="174" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="Controlli" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="760" width="210" height="146" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="controllo dell'esistenza di un file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="120">
+                    <mxGeometry y="26" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="controllo indice di un vettore" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="120">
+                    <mxGeometry y="56" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="controllo di un intero" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="120">
+                    <mxGeometry y="86" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="controllo numero elementi lista" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="120">
+                    <mxGeometry y="116" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="Funzioni" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="930" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="creazione di un vettore di&#10;strighe per ogni riga di un file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;" vertex="1" parent="125">
+                    <mxGeometry y="26" width="190" height="54" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
