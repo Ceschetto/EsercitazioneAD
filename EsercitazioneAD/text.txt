@@ -6,3 +6,4 @@ MENU:
     -> )
 -visualizza il file "corsi"; (manda in ouput a schermo la lista corrente dei corsi)
 -esci dal programma;
+cazo
