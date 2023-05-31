@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1685530307 source:c:\users\gabri\desktop\code_blocks\simulazione_6\io.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"controlli.h"
+	"IO.h"
+	"function.h"
+
+1685521502 c:\users\gabri\desktop\code_blocks\simulazione_6\io.h
+
+1685521850 source:c:\users\gabri\desktop\code_blocks\simulazione_6\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1685525103 c:\users\gabri\desktop\code_blocks\simulazione_6\controlli.h
+	<stdbool.h>
+
+1685529771 source:c:\users\gabri\desktop\code_blocks\simulazione_6\controlli.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"control.h"
+
+1685524747 source:c:\users\gabri\desktop\code_blocks\simulazione_6\function.c
+	<stdio.h>
+	<stdlib.h>
+	"function.h"
+
+1685525103 c:\users\gabri\desktop\code_blocks\simulazione_6\function.h
+
