@@ -1,19 +1,19 @@
 <mxfile host="65bd71144e">
     <diagram id="e7Jhm-mjQKPOkvGLRWCY" name="Pagina-1">
-        <mxGraphModel dx="2511" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#333333" math="0" shadow="0">
+        <mxGraphModel dx="1865" dy="1420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#333333" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="176" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;fillColor=#60a917;strokeColor=#2D7600;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="19" target="171">
+                <mxCell id="176" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;fillColor=#60a917;strokeColor=#2D7600;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="19" target="171" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="START PROGRAMMA" style="ellipse;whiteSpace=wrap;html=1;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="1600" y="40" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="226" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;fillColor=#fa6800;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="47" target="195">
+                <mxCell id="226" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;fillColor=#fa6800;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="47" target="195" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="234" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;fillColor=#fa6800;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="47" target="81">
+                <mxCell id="234" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;fillColor=#fa6800;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="47" target="81" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="2140" y="190"/>
@@ -26,11 +26,11 @@
                 <mxCell id="64" value="Prendere in input il nome del file da cercare" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="47" vertex="1">
                     <mxGeometry x="35" y="40" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" value="Salvare il contenuto del file in memoria" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="47">
+                <mxCell id="170" value="Salvare il contenuto del file in memoria" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="47" vertex="1">
                     <mxGeometry x="35" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="Riordinamento Corsi" style="swimlane;strokeColor=#B09500;fontColor=default;fillColor=#e3c800;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-                    <mxGeometry x="709" y="105" width="641" height="270" as="geometry"/>
+                    <mxGeometry x="760" y="105" width="641" height="270" as="geometry"/>
                 </mxCell>
                 <mxCell id="130" value="MENU" style="swimlane;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="48" vertex="1">
                     <mxGeometry x="40" y="40" width="190" height="200" as="geometry"/>
@@ -71,10 +71,10 @@
                 <mxCell id="103" value="File" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="375" y="200" width="160" height="206" as="geometry"/>
                 </mxCell>
-                <mxCell id="153" value="aprire un file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="103">
+                <mxCell id="153" value="aprire un file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="103" vertex="1">
                     <mxGeometry y="26" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="154" value="chiudere un file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="103">
+                <mxCell id="154" value="chiudere un file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="103" vertex="1">
                     <mxGeometry y="56" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="104" value="leggere una stringa da file" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="103" vertex="1">
@@ -104,11 +104,11 @@
                 <mxCell id="141" value="ordinamento elenco decrescente" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="111" vertex="1">
                     <mxGeometry y="116" width="220" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="208" value="Creazione lista di Corsi" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="111">
+                <mxCell id="208" value="Creazione lista di Corsi" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="111" vertex="1">
                     <mxGeometry y="146" width="220" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="115" value="Lista concatenata" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="650" width="230" height="204" as="geometry"/>
+                    <mxGeometry x="340" y="640" width="230" height="204" as="geometry"/>
                 </mxCell>
                 <mxCell id="116" value="aggiungere un nodo" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="115" vertex="1">
                     <mxGeometry y="26" width="230" height="30" as="geometry"/>
@@ -146,7 +146,7 @@
                 <mxCell id="126" value="Spezzettare la stringa" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="125" vertex="1">
                     <mxGeometry y="26" width="190" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="232" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=default;fillColor=#f0a30a;strokeColor=#BD7000;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="163" target="171">
+                <mxCell id="232" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=default;fillColor=#f0a30a;strokeColor=#BD7000;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="163" target="171" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="2040" y="640"/>
@@ -155,31 +155,31 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="163" value="Creazione lista" style="swimlane;strokeColor=#3A5431;fontColor=default;fillColor=#6d8764;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="163" value="Creazione lista" style="swimlane;strokeColor=#3A5431;fontColor=default;fillColor=#6d8764;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="1920" y="320" width="240" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="164" value="Concatenare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3A5431;fillColor=#6d8764;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="163">
+                <mxCell id="164" value="Concatenare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3A5431;fillColor=#6d8764;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="163" vertex="1">
                     <mxGeometry x="55" y="170" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="creazione nodo" style="swimlane;strokeColor=#3700CC;fontColor=default;fillColor=#6a00ff;startSize=23;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="163">
+                <mxCell id="158" value="creazione nodo" style="swimlane;strokeColor=#3700CC;fontColor=default;fillColor=#6a00ff;startSize=23;sketch=1;curveFitting=1;jiggle=2;" parent="163" vertex="1">
                     <mxGeometry x="30" y="36" width="170" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="80" value="Leggere riga per riga, spezzettare e creare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="158" vertex="1">
                     <mxGeometry x="25" y="42" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="237" value="Creazione lista" style="swimlane;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="163">
+                <mxCell id="237" value="Creazione lista" style="swimlane;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;sketch=1;curveFitting=1;jiggle=2;" parent="163" vertex="1">
                     <mxGeometry width="240" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="238" value="Concatenare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="237">
+                <mxCell id="238" value="Concatenare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="237" vertex="1">
                     <mxGeometry x="55" y="170" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="239" value="creazione nodo" style="swimlane;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;startSize=23;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="237">
+                <mxCell id="239" value="creazione nodo" style="swimlane;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;startSize=23;sketch=1;curveFitting=1;jiggle=2;" parent="237" vertex="1">
                     <mxGeometry x="30" y="36" width="170" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="240" value="Leggere riga per riga, spezzettare e creare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="239">
+                <mxCell id="240" value="Leggere riga per riga, spezzettare e creare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="239" vertex="1">
                     <mxGeometry x="25" y="42" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="236" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;fillColor=#fa6800;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="81" target="163">
+                <mxCell id="236" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;fillColor=#fa6800;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="81" target="163" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="2250" y="300"/>
@@ -187,25 +187,25 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="81" value="Creare una lista di Corsi per il file scelto dall'utente" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="81" value="Creare una lista di Corsi per il file scelto dall'utente" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="2190" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="171" value="MENU" style="swimlane;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="171" value="MENU" style="swimlane;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="1502.5" y="180" width="315" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="172" value="Importa corsi da un file" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="171">
+                <mxCell id="172" value="Importa corsi da un file" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="171" vertex="1">
                     <mxGeometry x="177.5" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="212" value="Riordinare i corsi" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#B09500;fillColor=#e3c800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="171">
+                <mxCell id="212" value="Riordinare i corsi" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#B09500;fillColor=#e3c800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="171" vertex="1">
                     <mxGeometry x="27.5" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="213" value="Visualizza memoria" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="171">
+                <mxCell id="213" value="Visualizza Corsi" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="171" vertex="1">
                     <mxGeometry x="27.5" y="100" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="209" value="Esci dal programma" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="171">
+                <mxCell id="209" value="Esci dal programma" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="171" vertex="1">
                     <mxGeometry x="177.5" y="100" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="215" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#a0522d;strokeColor=#6D1F00;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="195" target="197">
+                <mxCell id="215" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#a0522d;strokeColor=#6D1F00;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="195" target="197" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="2460" y="280"/>
@@ -213,10 +213,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="195" value="Creare una albero di Corsi... (ESEMPIO)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;fillColor=#a0522d;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="195" value="Creare una albero di Corsi... (ESEMPIO)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;fillColor=#a0522d;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="2400" y="60" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="235" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#a0522d;strokeColor=#6D1F00;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="197">
+                <mxCell id="235" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#a0522d;strokeColor=#6D1F00;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="197" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2040" y="640" as="targetPoint"/>
                         <Array as="points">
@@ -224,19 +224,19 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="197" value="Creazione Albero" style="swimlane;strokeColor=#6D1F00;fontColor=#ffffff;fillColor=#a0522d;glass=0;rounded=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="197" value="Creazione Albero" style="swimlane;strokeColor=#6D1F00;fontColor=#ffffff;fillColor=#a0522d;glass=0;rounded=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="2200" y="320" width="240" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="203" value="creazione nodo" style="swimlane;strokeColor=#6D1F00;fontColor=#ffffff;fillColor=#a0522d;startSize=23;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="197">
+                <mxCell id="203" value="creazione nodo" style="swimlane;strokeColor=#6D1F00;fontColor=#ffffff;fillColor=#a0522d;startSize=23;sketch=1;curveFitting=1;jiggle=2;" parent="197" vertex="1">
                     <mxGeometry x="35" y="40" width="170" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="204" value="Leggere riga per riga, spezzettare e creare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;fillColor=#a0522d;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="203">
+                <mxCell id="204" value="Leggere riga per riga, spezzettare e creare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;fillColor=#a0522d;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="203" vertex="1">
                     <mxGeometry x="25" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="205" value="Concatenare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;fillColor=#a0522d;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="197">
+                <mxCell id="205" value="Concatenare i nodi" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;fillColor=#a0522d;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="197" vertex="1">
                     <mxGeometry x="60" y="176" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="229" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fa6800;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="172" target="47">
+                <mxCell id="229" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fa6800;strokeColor=#C73500;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="172" target="47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1840" y="240"/>
@@ -244,13 +244,19 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="231" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="213">
+                <mxCell id="231" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="213" edge="1" target="242">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1590" y="440" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="241" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;fillColor=#e3c800;strokeColor=#B09500;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="212" target="48">
+                <mxCell id="241" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;fillColor=#e3c800;strokeColor=#B09500;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="212" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="Visualizza Corsi" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="1490" y="440" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="Leggere la lista corrente in memoria e mandarla in output" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="242">
+                    <mxGeometry x="40" y="40" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
