@@ -37,6 +37,8 @@ char * menu(char **sentence,size_t num_senteces, char *title)
         }
         else printf("\nErrore. Valore non intero oppure non in range.\nReinserisci: ");
     }
+    clear_screen();
+    return choice;
 }
 
 char* input_user(const char* request)
@@ -56,4 +58,14 @@ char* input_user(const char* request)
         buffer[length - 1] = '\0';
 
     return buffer;
+}
+
+void clear_screen()
+{
+#ifdef linux
+system("clear");
+#elif _WIN32
+printf("i use arch btw");
+system("cls");
+#endif // linux
 }

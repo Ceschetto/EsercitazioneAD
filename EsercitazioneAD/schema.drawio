@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="e7Jhm-mjQKPOkvGLRWCY" name="Pagina-1">
-        <mxGraphModel dx="1002" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#333333" math="0" shadow="0">
+        <mxGraphModel dx="954" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#333333" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -65,7 +65,7 @@
                 <mxCell id="91" value="input da tastiera" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="90" vertex="1">
                     <mxGeometry y="56" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="244" value="output messagio" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="90">
+                <mxCell id="244" value="output messagio" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="90" vertex="1">
                     <mxGeometry y="86" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="93" value="output di una lista" style="text;strokeColor=#BD7000;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=default;align=center;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" parent="90" vertex="1">
@@ -197,7 +197,7 @@
                     <mxGeometry x="1502.5" y="180" width="315" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="172" value="Importa corsi da un file" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#C73500;fillColor=#fa6800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="171" vertex="1">
-                    <mxGeometry x="177.5" y="40" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="167.5" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="212" value="Riordinare i corsi" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#B09500;fillColor=#e3c800;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="171" vertex="1">
                     <mxGeometry x="27.5" y="40" width="120" height="40" as="geometry"/>
@@ -206,7 +206,7 @@
                     <mxGeometry x="27.5" y="100" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="209" value="Esci dal programma" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="171" vertex="1">
-                    <mxGeometry x="177.5" y="100" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="167.5" y="100" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="215" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#a0522d;strokeColor=#6D1F00;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="195" target="197" edge="1">
                     <mxGeometry relative="1" as="geometry">
